@@ -1,8 +1,17 @@
 body{
     margin:0;
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f8f5f1;
 }
 
+#triangle{
+    position:absolute;
+    background-color: #343f56;
+    height:300px;
+    width:100%;
+    z-index: -1;
+
+}
 .home{
     height:500px;
     padding-top: 200px;
@@ -38,6 +47,16 @@ body{
     padding-right:10%;
 }
 
+#sg-ot{
+    display: inline-block;
+    background-color: #387c6d;
+    padding:5px 10px;
+    color:#f8f5f1;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: 1.5rem;
+}
+
 .profile img{
     border-radius: 5px;
     margin-bottom: 10px;
@@ -45,9 +64,22 @@ body{
 
 .choice{
     height:400px;
-    padding:50px 10%;
+    padding-top:100px;
     display: flex;
-    justify-content: space-between;
+    background-color: #f8f5f1;
+    justify-content: space-around;
+}
+
+#outer{
+    position: relative;
+    background-color: #387c6d;
+    padding:50px 10%;
+}
+
+.choice select{
+    appearance: none;
+    width:200px;
+    padding: 5px 10px;
 }
 
 .choice div{
@@ -65,6 +97,11 @@ body{
     padding:100px 5%;
 }
 
+.rank h2,.text h2{
+ text-align: center;
+ margin-bottom: 50px;
+}
+
 .rank th,.rank td{
     width:250px;
     padding:10px;
@@ -77,7 +114,7 @@ body{
 
 footer{
     background-color: #e9896a;
-    color:white;
+    color:#f8f5f1;
     padding:20px 2%;
 }
 
