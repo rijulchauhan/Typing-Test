@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Typing Test</title>
+        <link rel="stylesheet" href="./style.css" type="text/css"/>
+        <script type="text/javascript" src="./script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="home">
+            <div class="content">
+                <div id="title">Typing Test</div>
+                <div id="blink">_</div>
+                <p>
+                    Embrace yourself to start new journey
+                </p>
+            </div>
+            <div class="profile">
+                <img src="./image/rijul_chauhan.jpg" alt="profile pic" width="100px"/>    
+                <p>
+                    Rijul Chauhan
+                    <br>DOB: 12/03/2000
+                    <br>From: Himachal Pradesh
+                </p>
+            </div>
+        </div>
+        <div class="choice">
+            <div>
+                <h3>Time Limit</h3>
+                <select>
+                    <option value="1" selected>1 min</option>/>
+                    <option value="2">2 min</option>/>
+                    <option value="3">3 min</option>/>
+                </select>
+            </div>
+            <div>
+                <h3>Select Paragraph</h3>
+                <select name="time" onchange={change(this)}>
+                    <option value="1" selected>Study by book</option>/>
+                    <option value="2">Diwali</option>
+                    <option value="3">Building A New India</option>
+                    <option value="4">Teacher</option>
+                </select>
+            </div>
+        </div> 
+        <div id="text">
+           <p>
+            Studying is the main source of knowledge. Books are indeed never failing friends of man. For a mature mind, reading is the greatest source of pleasure and solace to distressed minds. The study of good books ennobles us and broadens our outlook. Therefore, the habit of reading should be cultivated. A student should never confine himself to his schoolbooks only. He should not miss the pleasure locked in the classics, poetry, drama, history, philosophy etc. We can derive benefit from other's experiences with the help of books. The various sufferings, endurance and joy described in books enable us to have a closer look at human life. They also inspire us to face the hardships of life courageously. Nowadays there are innumerable books and time is scarce. So we should read only the best and the greatest among them. With the help of books we shall be able to make our thinking mature and our life more meaningful and worthwhile.               
+           </p>
+        </div>
+        <div class="rank">
+            <table>
+                <thead>
+                  <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Best WPM</th>
+                    <th>Time</th>
+                  </tr>
+                <thead>
+                <tbody>
+                      <tr>
+                          <td>1</td>
+                          <td>Rijul Chauhan</td>
+                          <td>50</td>
+                          <td>3 min</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Rijul Chauhan</td>
+                        <td>60</td>
+                        <td>2 min</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ashutosh Chauhan</td>
+                        <td>10</td>
+                        <td>3 min</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Mummy</td>
+                        <td>5</td>
+                        <td>1 min</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="progress">
+
+        </div>
+        <footer>
+            <table>
+                <tr>
+                    <th>Contact</th>
+                    <th>Blog</th>
+                    <th>Business</th>
+                    <th>Donation</th>
+                </tr>
+                <tr>
+                    <td>rijulchauhan987@gmail.com</td>
+                    <td>@typingSpeed</td>
+                    <td>Partners</td>
+                    <td>Fund</td>
+                </tr>
+            </table>
+            <div id="sign">
+                Made with <img src="./image/heart.png" width="20px"/> by <span>Rijul</span>
+            </div>
+        </footer>
+    </body>
+</html>

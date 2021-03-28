@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.home{
+    height:500px;
+    padding-top: 200px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#title{
+    font-size: 4rem;
+    color:#387c6d;
+    font-weight: 500;
+}
+
+#blink{
+    display:inline-block;
+    font-weight: 900;
+    font-size: 2em;
+    position: relative;
+    top:-60px;
+    left:295px;
+    animation: 0.5s linear 1s infinite alternate blink;
+}
+
+.content{
+    padding-left:10%;
+    flex-basis:50%;
+    font-size: 24px;
+}
+
+.profile{
+    flex-basis: 30%;
+    padding-left:50px;
+    padding-right:10%;
+}
+
+.profile img{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.choice{
+    height:400px;
+    padding:50px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.choice div{
+    flex-basis:300px;
+}
+
+#text{
+    font-size: 1.5rem;
+    padding:50px 10%;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+}
+
+.rank{
+    padding:100px 5%;
+}
+
+.rank th,.rank td{
+    width:250px;
+    padding:10px;
+    font-size: 1.2rem;
+} 
+
+.rank td{
+    text-align: center;
+}
+
+footer{
+    background-color: #e9896a;
+    color:white;
+    padding:20px 2%;
+}
+
+footer table{
+    margin:0 5%;
+}
+
+footer td,footer th{
+    color:white;
+    width:250px;
+    text-align: center;
+}
+
+footer img{
+    position: relative;
+    top:3px;
+}
+#sign{
+    text-align: end;
+}
+
+#sign span{
+    font-weight: 600;
+}
+@keyframes blink{
+    to{
+        color:black
+    }
+    from{
+        color:white;
+    }
+}
